@@ -1,0 +1,50 @@
+name: Data & Code Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate synthetic data
+        run: python scripts/generate_data.py
+
+      - name: Run analytics & ML pipeline
+        run: python scripts/run_pipeline.py
+
+      - name: Run test suite
+        run: pytest tests/ -v
+
+      - name: Build Excel workbook
+        run: python scripts/build_excel.py
+
+      - name: Build dashboard
+        run: python scripts/build_dashboard.py
+
+      - name: Upload dashboard artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashboard
+          path: outputs/dashboard/dashboard.html
+
+      - name: Upload Excel artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: excel-workbook
+          path: outputs/excel/RETAIL_BANKING_ANALYTICS.xlsx

@@ -1,0 +1,133 @@
+{
+  "n_loans": 15797,
+  "default_rate": 0.026,
+  "n_train": 11847,
+  "n_test": 3950,
+  "logistic_regression": {
+    "roc_auc": 0.6649,
+    "pr_auc": 0.0486,
+    "precision": 0.0547,
+    "recall": 0.4563,
+    "f1": 0.0976,
+    "brier_score": 0.2146,
+    "confusion_matrix": [
+      [
+        3034,
+        813
+      ],
+      [
+        56,
+        47
+      ]
+    ]
+  },
+  "gradient_boosting": {
+    "roc_auc": 0.6687,
+    "pr_auc": 0.0455,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier_score": 0.0264,
+    "confusion_matrix": [
+      [
+        3842,
+        5
+      ],
+      [
+        103,
+        0
+      ]
+    ]
+  },
+  "feature_importance_gbc": [
+    {
+      "feature": "loan_to_income",
+      "importance": 0.4292
+    },
+    {
+      "feature": "utilization_proxy",
+      "importance": 0.1965
+    },
+    {
+      "feature": "loan_amount",
+      "importance": 0.1921
+    },
+    {
+      "feature": "tenure_years",
+      "importance": 0.1043
+    },
+    {
+      "feature": "annual_income",
+      "importance": 0.0373
+    },
+    {
+      "feature": "products_owned_count",
+      "importance": 0.03
+    },
+    {
+      "feature": "digital_high",
+      "importance": 0.0067
+    },
+    {
+      "feature": "employed",
+      "importance": 0.0029
+    },
+    {
+      "feature": "term_months",
+      "importance": 0.001
+    },
+    {
+      "feature": "interest_rate",
+      "importance": 0.0001
+    }
+  ],
+  "portfolio_risk_summary": [
+    {
+      "risk_bucket": "Critical",
+      "loan_count": 434,
+      "total_exposure": 1273515.19,
+      "avg_pd": 0.0809,
+      "avg_lgd": 0.4491,
+      "total_expected_loss": 78315.48
+    },
+    {
+      "risk_bucket": "Elevated",
+      "loan_count": 2857,
+      "total_exposure": 18842230.25,
+      "avg_pd": 0.0359,
+      "avg_lgd": 0.4525,
+      "total_expected_loss": 502781.85
+    },
+    {
+      "risk_bucket": "High",
+      "loan_count": 1397,
+      "total_exposure": 7593468.43,
+      "avg_pd": 0.0538,
+      "avg_lgd": 0.449,
+      "total_expected_loss": 305016.22
+    },
+    {
+      "risk_bucket": "Low",
+      "loan_count": 6335,
+      "total_exposure": 43671841.7,
+      "avg_pd": 0.0135,
+      "avg_lgd": 0.4497,
+      "total_expected_loss": 370848.63
+    },
+    {
+      "risk_bucket": "Moderate",
+      "loan_count": 4774,
+      "total_exposure": 32054928.14,
+      "avg_pd": 0.0226,
+      "avg_lgd": 0.45,
+      "total_expected_loss": 546301.73
+    }
+  ],
+  "dpd_distribution": {
+    "Current": 0.895,
+    "30-59": 0.0487,
+    "60-89": 0.0303,
+    "90+": 0.026
+  },
+  "npl_ratio": 0.0444
+}

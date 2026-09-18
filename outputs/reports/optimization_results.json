@@ -1,0 +1,30 @@
+{
+  "status": "Optimal",
+  "total_budget": 500000.0,
+  "cac_ceiling_per_segment": 200000.0,
+  "min_spend_per_segment": 15000.0,
+  "response_rate_by_segment": {
+    "Affluent": 0.0477,
+    "High Value": 0.0497,
+    "Mass": 0.025,
+    "Mass Affluent": 0.0362,
+    "Premium": 0.0612
+  },
+  "current_allocation_even_split": {
+    "Affluent": 100000.0,
+    "High Value": 100000.0,
+    "Mass": 100000.0,
+    "Mass Affluent": 100000.0,
+    "Premium": 100000.0
+  },
+  "optimized_allocation": {
+    "Affluent": 100000.0,
+    "High Value": 125000.0,
+    "Mass": 15000.0,
+    "Mass Affluent": 100000.0,
+    "Premium": 160000.0
+  },
+  "expected_incremental_profit_current": 21981.14,
+  "expected_incremental_profit_optimized": 22804.12,
+  "expected_profit_uplift_pct": 3.74
+}

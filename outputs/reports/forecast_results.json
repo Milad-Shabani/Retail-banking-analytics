@@ -1,0 +1,438 @@
+{
+  "horizon_months": 12,
+  "backtest_holdout_months": 6,
+  "series": {
+    "deposits": {
+      "column": "total_balance",
+      "best_method": "Seasonal Naive",
+      "backtest_scores": {
+        "Seasonal Naive": {
+          "mae": 474271.39,
+          "rmse": 559876.11,
+          "mape": 2.05,
+          "wape": 2.08,
+          "bias": -136920.06
+        },
+        "Moving Average": {
+          "mae": 1036970.99,
+          "rmse": 1137590.59,
+          "mape": 4.6,
+          "wape": 4.54,
+          "bias": 971701.1
+        },
+        "Holt-Winters (ETS)": {
+          "mae": 706291.75,
+          "rmse": 778181.4,
+          "mape": 3.11,
+          "wape": 3.09,
+          "bias": 431531.35
+        },
+        "Linear Trend (ML)": {
+          "mae": 796392.22,
+          "rmse": 858577.22,
+          "mape": 3.52,
+          "wape": 3.49,
+          "bias": 603962.49
+        }
+      },
+      "forecast_12m": [
+        23614271.71,
+        24127518.31,
+        24439182.4,
+        24369563.63,
+        24008775.52,
+        23427572.38,
+        22811230.25,
+        22366029.07,
+        22227804.41,
+        22475517.43,
+        23125925.03,
+        23964699.01
+      ]
+    },
+    "loans": {
+      "column": "outstanding_loans_proxy",
+      "best_method": "Holt-Winters (ETS)",
+      "backtest_scores": {
+        "Seasonal Naive": {
+          "mae": 10314616.21,
+          "rmse": 10314616.21,
+          "mape": 13.41,
+          "wape": 13.41,
+          "bias": -10314616.21
+        },
+        "Moving Average": {
+          "mae": 3619784.15,
+          "rmse": 3882665.73,
+          "mape": 4.67,
+          "wape": 4.71,
+          "bias": -3619784.15
+        },
+        "Holt-Winters (ETS)": {
+          "mae": 0.0,
+          "rmse": 0.0,
+          "mape": 0.0,
+          "wape": 0.0,
+          "bias": -0.0
+        },
+        "Linear Trend (ML)": {
+          "mae": 0.0,
+          "rmse": 0.0,
+          "mape": 0.0,
+          "wape": 0.0,
+          "bias": -0.0
+        }
+      },
+      "forecast_12m": [
+        79938275.64,
+        80797826.99,
+        81657378.34,
+        82516929.69,
+        83376481.04,
+        84236032.4,
+        85095583.75,
+        85955135.1,
+        86814686.45,
+        87674237.8,
+        88533789.15,
+        89393340.5
+      ]
+    },
+    "revenue": {
+      "column": "total_revenue",
+      "best_method": "Holt-Winters (ETS)",
+      "backtest_scores": {
+        "Seasonal Naive": {
+          "mae": 78747.64,
+          "rmse": 78845.82,
+          "mape": 10.47,
+          "wape": 10.47,
+          "bias": -78747.64
+        },
+        "Moving Average": {
+          "mae": 20179.45,
+          "rmse": 24652.77,
+          "mape": 2.65,
+          "wape": 2.68,
+          "bias": -20179.45
+        },
+        "Holt-Winters (ETS)": {
+          "mae": 5329.96,
+          "rmse": 5801.19,
+          "mape": 0.71,
+          "wape": 0.71,
+          "bias": 3580.87
+        },
+        "Linear Trend (ML)": {
+          "mae": 5852.97,
+          "rmse": 6316.25,
+          "mape": 0.78,
+          "wape": 0.78,
+          "bias": 4525.88
+        }
+      },
+      "forecast_12m": [
+        788794.9,
+        801272.66,
+        813750.42,
+        826228.18,
+        838705.94,
+        851183.7,
+        863661.46,
+        876139.22,
+        888616.98,
+        901094.74,
+        913572.5,
+        926050.26
+      ]
+    },
+    "net_interest_income": {
+      "column": "net_interest_income",
+      "best_method": "Holt-Winters (ETS)",
+      "backtest_scores": {
+        "Seasonal Naive": {
+          "mae": 71395.91,
+          "rmse": 71487.6,
+          "mape": 10.53,
+          "wape": 10.53,
+          "bias": -71395.91
+        },
+        "Moving Average": {
+          "mae": 18257.47,
+          "rmse": 22353.23,
+          "mape": 2.66,
+          "wape": 2.69,
+          "bias": -18257.47
+        },
+        "Holt-Winters (ETS)": {
+          "mae": 4807.85,
+          "rmse": 5251.53,
+          "mape": 0.71,
+          "wape": 0.71,
+          "bias": 3108.71
+        },
+        "Linear Trend (ML)": {
+          "mae": 5309.3,
+          "rmse": 5723.81,
+          "mape": 0.79,
+          "wape": 0.78,
+          "bias": 4026.29
+        }
+      },
+      "forecast_12m": [
+        711601.85,
+        723067.61,
+        734533.37,
+        745999.13,
+        757464.89,
+        768930.65,
+        780396.41,
+        791862.17,
+        803327.93,
+        814793.69,
+        826259.45,
+        837725.21
+      ]
+    },
+    "fee_income": {
+      "column": "fee_income",
+      "best_method": "Linear Trend (ML)",
+      "backtest_scores": {
+        "Seasonal Naive": {
+          "mae": 849.48,
+          "rmse": 868.0,
+          "mape": 12.06,
+          "wape": 12.05,
+          "bias": 849.48
+        },
+        "Moving Average": {
+          "mae": 684.22,
+          "rmse": 698.05,
+          "mape": 9.75,
+          "wape": 9.71,
+          "bias": 684.22
+        },
+        "Holt-Winters (ETS)": {
+          "mae": 380.7,
+          "rmse": 415.2,
+          "mape": 5.45,
+          "wape": 5.4,
+          "bias": 380.7
+        },
+        "Linear Trend (ML)": {
+          "mae": 338.53,
+          "rmse": 384.59,
+          "mape": 4.85,
+          "wape": 4.8,
+          "bias": 338.53
+        }
+      },
+      "forecast_12m": [
+        6876.69,
+        6793.74,
+        6710.78,
+        6627.83,
+        6544.88,
+        6461.93,
+        6378.98,
+        6296.02,
+        6213.07,
+        6130.12,
+        6047.17,
+        5964.22
+      ]
+    },
+    "operating_costs": {
+      "column": "total_operating_cost",
+      "best_method": "Holt-Winters (ETS)",
+      "backtest_scores": {
+        "Seasonal Naive": {
+          "mae": 14281.64,
+          "rmse": 17071.45,
+          "mape": 2.38,
+          "wape": 2.39,
+          "bias": -14281.64
+        },
+        "Moving Average": {
+          "mae": 11721.42,
+          "rmse": 14138.65,
+          "mape": 1.95,
+          "wape": 1.96,
+          "bias": -10018.49
+        },
+        "Holt-Winters (ETS)": {
+          "mae": 9715.76,
+          "rmse": 11819.51,
+          "mape": 1.61,
+          "wape": 1.63,
+          "bias": -6780.25
+        },
+        "Linear Trend (ML)": {
+          "mae": 9719.22,
+          "rmse": 11827.51,
+          "mape": 1.62,
+          "wape": 1.63,
+          "bias": -6795.65
+        }
+      },
+      "forecast_12m": [
+        596226.54,
+        596933.43,
+        597640.32,
+        598347.21,
+        599054.1,
+        599760.99,
+        600467.88,
+        601174.76,
+        601881.65,
+        602588.54,
+        603295.43,
+        604002.32
+      ]
+    },
+    "credit_loss": {
+      "column": "credit_loss",
+      "best_method": "Holt-Winters (ETS)",
+      "backtest_scores": {
+        "Seasonal Naive": {
+          "mae": 10232.45,
+          "rmse": 12083.49,
+          "mape": 13.7,
+          "wape": 14.01,
+          "bias": -10232.45
+        },
+        "Moving Average": {
+          "mae": 5809.19,
+          "rmse": 6451.23,
+          "mape": 7.75,
+          "wape": 7.95,
+          "bias": -4092.97
+        },
+        "Holt-Winters (ETS)": {
+          "mae": 4661.85,
+          "rmse": 5354.75,
+          "mape": 6.6,
+          "wape": 6.38,
+          "bias": 1163.95
+        },
+        "Linear Trend (ML)": {
+          "mae": 4915.21,
+          "rmse": 5819.32,
+          "mape": 7.03,
+          "wape": 6.73,
+          "bias": 2385.61
+        }
+      },
+      "forecast_12m": [
+        76529.23,
+        77403.43,
+        78277.63,
+        79151.83,
+        80026.04,
+        80900.24,
+        81774.44,
+        82648.64,
+        83522.84,
+        84397.04,
+        85271.24,
+        86145.44
+      ]
+    },
+    "profit": {
+      "column": "profit_after_credit_costs",
+      "best_method": "Holt-Winters (ETS)",
+      "backtest_scores": {
+        "Seasonal Naive": {
+          "mae": 54233.54,
+          "rmse": 56478.55,
+          "mape": 66.26,
+          "wape": 66.13,
+          "bias": -54233.54
+        },
+        "Moving Average": {
+          "mae": 17411.31,
+          "rmse": 21062.77,
+          "mape": 22.37,
+          "wape": 21.23,
+          "bias": -6067.98
+        },
+        "Holt-Winters (ETS)": {
+          "mae": 12853.47,
+          "rmse": 15339.41,
+          "mape": 19.06,
+          "wape": 15.67,
+          "bias": 4637.62
+        },
+        "Linear Trend (ML)": {
+          "mae": 13818.09,
+          "rmse": 16711.06,
+          "mape": 21.3,
+          "wape": 16.85,
+          "bias": 8935.92
+        }
+      },
+      "forecast_12m": [
+        99212.6,
+        103428.54,
+        107644.49,
+        111860.43,
+        116076.37,
+        120292.32,
+        124508.26,
+        128724.2,
+        132940.14,
+        137156.09,
+        141372.03,
+        145587.97
+      ]
+    },
+    "customer_base": {
+      "column": "active_customers",
+      "best_method": "Holt-Winters (ETS)",
+      "backtest_scores": {
+        "Seasonal Naive": {
+          "mae": 2120.0,
+          "rmse": 2120.05,
+          "mape": 12.29,
+          "wape": 12.29,
+          "bias": 2120.0
+        },
+        "Moving Average": {
+          "mae": 761.08,
+          "rmse": 813.3,
+          "mape": 4.44,
+          "wape": 4.41,
+          "bias": 761.08
+        },
+        "Holt-Winters (ETS)": {
+          "mae": 36.33,
+          "rmse": 40.95,
+          "mape": 0.21,
+          "wape": 0.21,
+          "bias": -33.0
+        },
+        "Linear Trend (ML)": {
+          "mae": 333.29,
+          "rmse": 339.64,
+          "mape": 1.94,
+          "wape": 1.93,
+          "bias": 333.29
+        }
+      },
+      "forecast_12m": [
+        16623.0,
+        16442.0,
+        16261.0,
+        16080.0,
+        15899.0,
+        15718.0,
+        15537.0,
+        15356.0,
+        15175.0,
+        14994.0,
+        14813.0,
+        14632.0
+      ]
+    }
+  }
+}

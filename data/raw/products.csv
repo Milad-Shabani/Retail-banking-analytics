@@ -1,0 +1,13 @@
+product_id,product_name,product_category,interest_rate,fee_rate,monthly_fee,acquisition_cost,operating_cost,risk_level
+PRD01,Checking Account,Transaction,0.001,0.0,3.0,8,6,Low
+PRD02,Savings Account,Deposit,0.015,0.0,0.0,6,4,Low
+PRD03,Credit Card,Card,0.24,0.02,0.0,45,20,High
+PRD04,Debit Card,Card,0.0,0.005,0.0,5,3,Low
+PRD05,Personal Loan,Loan,0.16,0.01,0.0,60,15,High
+PRD06,Auto Loan,Loan,0.11,0.008,0.0,70,18,Medium
+PRD07,Mortgage,Loan,0.085,0.005,0.0,150,30,Medium
+PRD08,Consumer Loan,Loan,0.18,0.01,0.0,40,14,High
+PRD09,Term Deposit,Deposit,0.06,0.0,0.0,10,5,Low
+PRD10,Investment Account,Investment,0.0,0.012,0.0,55,12,Medium
+PRD11,Overdraft Facility,Credit,0.2,0.015,2.0,20,8,High
+PRD12,Bancassurance,Insurance,0.0,0.1,0.0,30,10,Low

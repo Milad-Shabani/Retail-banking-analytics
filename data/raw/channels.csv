@@ -1,0 +1,13 @@
+channel_id,channel_name,channel_type,avg_acquisition_cost
+CH01,Branch Walk-in,Physical,69.15
+CH02,Digital Onboarding,Digital,113.3
+CH03,Mobile App Referral,Digital,117.61
+CH04,Call Center,Physical,39.82
+CH05,Partner Referral,Partner,20.16
+CH06,Employer Payroll Program,Partner,31.13
+CH07,Online Ad Campaign,Digital,21.65
+CH08,Social Media Campaign,Digital,35.49
+CH09,Aggregator Website,Digital,74.7
+CH10,Existing Customer Referral,Referral,110.81
+CH11,Student Program,Partner,71.41
+CH12,ATM Kiosk Sign-up,Physical,80.73

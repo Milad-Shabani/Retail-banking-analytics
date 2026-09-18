@@ -1,0 +1,123 @@
+{
+  "n_customers": 20000,
+  "single_product_rate": 0.1066,
+  "multi_product_rate": 0.8934,
+  "avg_products_per_customer": 3.225,
+  "product_penetration_pct": {
+    "Checking Account": 100.0,
+    "Savings Account": 38.74,
+    "Credit Card": 28.75,
+    "Debit Card": 28.42,
+    "Term Deposit": 16.18,
+    "Bancassurance": 15.94,
+    "Overdraft Facility": 15.92,
+    "Personal Loan": 15.85,
+    "Mortgage": 15.82,
+    "Consumer Loan": 15.75,
+    "Auto Loan": 15.65,
+    "Investment Account": 15.47
+  },
+  "top_product_affinities": [
+    {
+      "product_a": "Credit Card",
+      "product_b": "Overdraft Facility",
+      "customers_with_both": 1074,
+      "lift": 1.173
+    },
+    {
+      "product_a": "Credit Card",
+      "product_b": "Auto Loan",
+      "customers_with_both": 1042,
+      "lift": 1.158
+    },
+    {
+      "product_a": "Savings Account",
+      "product_b": "Mortgage",
+      "customers_with_both": 1413,
+      "lift": 1.153
+    },
+    {
+      "product_a": "Mortgage",
+      "product_b": "Investment Account",
+      "customers_with_both": 562,
+      "lift": 1.149
+    },
+    {
+      "product_a": "Personal Loan",
+      "product_b": "Investment Account",
+      "customers_with_both": 562,
+      "lift": 1.146
+    },
+    {
+      "product_a": "Debit Card",
+      "product_b": "Overdraft Facility",
+      "customers_with_both": 1031,
+      "lift": 1.139
+    },
+    {
+      "product_a": "Savings Account",
+      "product_b": "Debit Card",
+      "customers_with_both": 2508,
+      "lift": 1.139
+    },
+    {
+      "product_a": "Personal Loan",
+      "product_b": "Consumer Loan",
+      "customers_with_both": 566,
+      "lift": 1.134
+    },
+    {
+      "product_a": "Auto Loan",
+      "product_b": "Mortgage",
+      "customers_with_both": 560,
+      "lift": 1.132
+    },
+    {
+      "product_a": "Auto Loan",
+      "product_b": "Bancassurance",
+      "customers_with_both": 564,
+      "lift": 1.131
+    }
+  ],
+  "cross_sell_retention_effect": [
+    {
+      "combo": "Credit Card + Overdraft Facility",
+      "retention_rate_combo": 0.8324,
+      "retention_rate_a_only": 0.843
+    },
+    {
+      "combo": "Credit Card + Auto Loan",
+      "retention_rate_combo": 0.8349,
+      "retention_rate_a_only": 0.8424
+    },
+    {
+      "combo": "Savings Account + Mortgage",
+      "retention_rate_combo": 0.8443,
+      "retention_rate_a_only": 0.8399
+    },
+    {
+      "combo": "Mortgage + Investment Account",
+      "retention_rate_combo": 0.8416,
+      "retention_rate_a_only": 0.8412
+    },
+    {
+      "combo": "Personal Loan + Investment Account",
+      "retention_rate_combo": 0.8416,
+      "retention_rate_a_only": 0.8409
+    },
+    {
+      "combo": "Debit Card + Overdraft Facility",
+      "retention_rate_combo": 0.8322,
+      "retention_rate_a_only": 0.842
+    }
+  ],
+  "next_best_product_sample_size": 739,
+  "next_best_product_by_recommendation": {
+    "Credit Card": 163,
+    "Bancassurance": 157,
+    "Investment Account": 128,
+    "Auto Loan": 127,
+    "Personal Loan": 94,
+    "Term Deposit": 70
+  }
+}

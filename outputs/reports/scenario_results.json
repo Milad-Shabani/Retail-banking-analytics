@@ -1,0 +1,807 @@
+{
+  "Base Case": {
+    "assumptions": {
+      "deposit_growth_monthly": 0.006,
+      "loan_growth_monthly": 0.008,
+      "interest_rate_delta": 0.0,
+      "credit_loss_multiplier": 1.0,
+      "fee_income_growth_monthly": 0.004,
+      "customer_acquisition_growth_monthly": 0.01,
+      "churn_rate_monthly": 0.01,
+      "operating_cost_growth_monthly": 0.004,
+      "digital_adoption_growth_monthly": 0.004,
+      "marketing_spend_multiplier": 1.0
+    },
+    "month_12_snapshot": {
+      "month_ahead": 12,
+      "deposits": 25748251.79,
+      "loans": 87013380.19,
+      "revenue": 842780.52,
+      "net_interest_income": 766246.44,
+      "credit_loss": 85248.01,
+      "operating_cost": 620035.59,
+      "profit": 137496.91,
+      "active_customers": 16804.0
+    },
+    "cumulative_12m_profit": 1482786.15,
+    "roa_annualized_month12": 0.0146,
+    "path": [
+      {
+        "month_ahead": 1,
+        "deposits": 24108487.2,
+        "loans": 79711354.08,
+        "revenue": 781627.33,
+        "net_interest_income": 705417.5,
+        "credit_loss": 78094.13,
+        "operating_cost": 593397.59,
+        "profit": 110135.6,
+        "active_customers": 16804.0
+      },
+      {
+        "month_ahead": 2,
+        "deposits": 24253138.13,
+        "loans": 80349044.92,
+        "revenue": 786978.11,
+        "net_interest_income": 710739.39,
+        "credit_loss": 78718.89,
+        "operating_cost": 595771.18,
+        "profit": 112488.04,
+        "active_customers": 16804.0
+      },
+      {
+        "month_ahead": 3,
+        "deposits": 24398656.95,
+        "loans": 80991837.28,
+        "revenue": 792369.66,
+        "net_interest_income": 716101.93,
+        "credit_loss": 79348.64,
+        "operating_cost": 598154.27,
+        "profit": 114866.75,
+        "active_customers": 16804.0
+      },
+      {
+        "month_ahead": 4,
+        "deposits": 24545048.9,
+        "loans": 81639771.97,
+        "revenue": 797802.29,
+        "net_interest_income": 721505.43,
+        "credit_loss": 79983.43,
+        "operating_cost": 600546.89,
+        "profit": 117271.97,
+        "active_customers": 16804.0
+      },
+      {
+        "month_ahead": 5,
+        "deposits": 24692319.19,
+        "loans": 82292890.15,
+        "revenue": 803276.3,
+        "net_interest_income": 726950.21,
+        "credit_loss": 80623.3,
+        "operating_cost": 602949.07,
+        "profit": 119703.93,
+        "active_customers": 16804.0
+      },
+      {
+        "month_ahead": 6,
+        "deposits": 24840473.1,
+        "loans": 82951233.27,
+        "revenue": 808792.03,
+        "net_interest_income": 732436.58,
+        "credit_loss": 81268.28,
+        "operating_cost": 605360.87,
+        "profit": 122162.88,
+        "active_customers": 16804.0
+      },
+      {
+        "month_ahead": 7,
+        "deposits": 24989515.94,
+        "loans": 83614843.14,
+        "revenue": 814349.79,
+        "net_interest_income": 737964.87,
+        "credit_loss": 81918.43,
+        "operating_cost": 607782.31,
+        "profit": 124649.05,
+        "active_customers": 16804.0
+      },
+      {
+        "month_ahead": 8,
+        "deposits": 25139453.04,
+        "loans": 84283761.88,
+        "revenue": 819949.91,
+        "net_interest_income": 743535.39,
+        "credit_loss": 82573.78,
+        "operating_cost": 610213.44,
+        "profit": 127162.69,
+        "active_customers": 16804.0
+      },
+      {
+        "month_ahead": 9,
+        "deposits": 25290289.76,
+        "loans": 84958031.98,
+        "revenue": 825592.71,
+        "net_interest_income": 749148.48,
+        "credit_loss": 83234.37,
+        "operating_cost": 612654.3,
+        "profit": 129704.05,
+        "active_customers": 16804.0
+      },
+      {
+        "month_ahead": 10,
+        "deposits": 25442031.5,
+        "loans": 85637696.23,
+        "revenue": 831278.53,
+        "net_interest_income": 754804.47,
+        "credit_loss": 83900.24,
+        "operating_cost": 615104.91,
+        "profit": 132273.37,
+        "active_customers": 16804.0
+      },
+      {
+        "month_ahead": 11,
+        "deposits": 25594683.68,
+        "loans": 86322797.8,
+        "revenue": 837007.68,
+        "net_interest_income": 760503.68,
+        "credit_loss": 84571.44,
+        "operating_cost": 617565.33,
+        "profit": 134870.91,
+        "active_customers": 16804.0
+      },
+      {
+        "month_ahead": 12,
+        "deposits": 25748251.79,
+        "loans": 87013380.19,
+        "revenue": 842780.52,
+        "net_interest_income": 766246.44,
+        "credit_loss": 85248.01,
+        "operating_cost": 620035.59,
+        "profit": 137496.91,
+        "active_customers": 16804.0
+      }
+    ]
+  },
+  "Growth Case": {
+    "assumptions": {
+      "deposit_growth_monthly": 0.012,
+      "loan_growth_monthly": 0.016,
+      "interest_rate_delta": -0.005,
+      "credit_loss_multiplier": 1.15,
+      "fee_income_growth_monthly": 0.009,
+      "customer_acquisition_growth_monthly": 0.02,
+      "churn_rate_monthly": 0.009,
+      "operating_cost_growth_monthly": 0.008,
+      "digital_adoption_growth_monthly": 0.008,
+      "marketing_spend_multiplier": 1.4
+    },
+    "month_12_snapshot": {
+      "month_ahead": 12,
+      "deposits": 27652737.36,
+      "loans": 95671845.15,
+      "revenue": 875243.6,
+      "net_interest_income": 798245.92,
+      "credit_loss": 107790.43,
+      "operating_cost": 650336.99,
+      "profit": 117116.18,
+      "active_customers": 19161.0
+    },
+    "cumulative_12m_profit": 1094522.9,
+    "roa_annualized_month12": 0.0114,
+    "path": [
+      {
+        "month_ahead": 1,
+        "deposits": 24252275.4,
+        "loans": 80343983.88,
+        "revenue": 753468.2,
+        "net_interest_income": 677222.4,
+        "credit_loss": 90521.02,
+        "operating_cost": 595761.73,
+        "profit": 67185.45,
+        "active_customers": 16989.0
+      },
+      {
+        "month_ahead": 2,
+        "deposits": 24543302.7,
+        "loans": 81629487.62,
+        "revenue": 763722.36,
+        "net_interest_income": 687411.23,
+        "credit_loss": 91969.36,
+        "operating_cost": 600527.82,
+        "profit": 71225.18,
+        "active_customers": 17176.0
+      },
+      {
+        "month_ahead": 3,
+        "deposits": 24837822.33,
+        "loans": 82935559.42,
+        "revenue": 774132.37,
+        "net_interest_income": 697755.32,
+        "credit_loss": 93440.86,
+        "operating_cost": 605332.04,
+        "profit": 75359.46,
+        "active_customers": 17365.0
+      },
+      {
+        "month_ahead": 4,
+        "deposits": 25135876.2,
+        "loans": 84262528.37,
+        "revenue": 784700.63,
+        "net_interest_income": 708257.07,
+        "credit_loss": 94935.92,
+        "operating_cost": 610174.7,
+        "profit": 79590.01,
+        "active_customers": 17556.0
+      },
+      {
+        "month_ahead": 5,
+        "deposits": 25437506.72,
+        "loans": 85610728.83,
+        "revenue": 795429.56,
+        "net_interest_income": 718918.89,
+        "credit_loss": 96454.89,
+        "operating_cost": 615056.1,
+        "profit": 83918.57,
+        "active_customers": 17749.0
+      },
+      {
+        "month_ahead": 6,
+        "deposits": 25742756.8,
+        "loans": 86980500.49,
+        "revenue": 806321.65,
+        "net_interest_income": 729743.26,
+        "credit_loss": 97998.17,
+        "operating_cost": 619976.55,
+        "profit": 88346.93,
+        "active_customers": 17944.0
+      },
+      {
+        "month_ahead": 7,
+        "deposits": 26051669.88,
+        "loans": 88372188.5,
+        "revenue": 817379.39,
+        "net_interest_income": 740732.68,
+        "credit_loss": 99566.14,
+        "operating_cost": 624936.36,
+        "profit": 92876.89,
+        "active_customers": 18141.0
+      },
+      {
+        "month_ahead": 8,
+        "deposits": 26364289.92,
+        "loans": 89786143.51,
+        "revenue": 828605.34,
+        "net_interest_income": 751889.69,
+        "credit_loss": 101159.2,
+        "operating_cost": 629935.85,
+        "profit": 97510.29,
+        "active_customers": 18341.0
+      },
+      {
+        "month_ahead": 9,
+        "deposits": 26680661.4,
+        "loans": 91222721.81,
+        "revenue": 840002.09,
+        "net_interest_income": 763216.87,
+        "credit_loss": 102777.75,
+        "operating_cost": 634975.34,
+        "profit": 102249.01,
+        "active_customers": 18543.0
+      },
+      {
+        "month_ahead": 10,
+        "deposits": 27000829.33,
+        "loans": 92682285.36,
+        "revenue": 851572.26,
+        "net_interest_income": 774716.86,
+        "credit_loss": 104422.19,
+        "operating_cost": 640055.14,
+        "profit": 107094.93,
+        "active_customers": 18747.0
+      },
+      {
+        "month_ahead": 11,
+        "deposits": 27324839.28,
+        "loans": 94165201.92,
+        "revenue": 863318.53,
+        "net_interest_income": 786392.31,
+        "credit_loss": 106092.95,
+        "operating_cost": 645175.58,
+        "profit": 112050.0,
+        "active_customers": 18953.0
+      },
+      {
+        "month_ahead": 12,
+        "deposits": 27652737.36,
+        "loans": 95671845.15,
+        "revenue": 875243.6,
+        "net_interest_income": 798245.92,
+        "credit_loss": 107790.43,
+        "operating_cost": 650336.99,
+        "profit": 117116.18,
+        "active_customers": 19161.0
+      }
+    ]
+  },
+  "Efficiency Case": {
+    "assumptions": {
+      "deposit_growth_monthly": 0.005,
+      "loan_growth_monthly": 0.006,
+      "interest_rate_delta": 0.0,
+      "credit_loss_multiplier": 0.9,
+      "fee_income_growth_monthly": 0.004,
+      "customer_acquisition_growth_monthly": 0.006,
+      "churn_rate_monthly": 0.009,
+      "operating_cost_growth_monthly": -0.004,
+      "digital_adoption_growth_monthly": 0.01,
+      "marketing_spend_multiplier": 0.75
+    },
+    "month_12_snapshot": {
+      "month_ahead": 12,
+      "deposits": 25442789.2,
+      "loans": 84964092.53,
+      "revenue": 826740.64,
+      "net_interest_income": 750206.56,
+      "credit_loss": 74916.27,
+      "operating_cost": 563279.74,
+      "profit": 188544.63,
+      "active_customers": 16209.0
+    },
+    "cumulative_12m_profit": 1859327.88,
+    "roa_annualized_month12": 0.0205,
+    "path": [
+      {
+        "month_ahead": 1,
+        "deposits": 24084522.5,
+        "loans": 79553196.64,
+        "revenue": 780386.82,
+        "net_interest_income": 704176.99,
+        "credit_loss": 70145.27,
+        "operating_cost": 588669.33,
+        "profit": 121572.23,
+        "active_customers": 16754.0
+      },
+      {
+        "month_ahead": 2,
+        "deposits": 24204945.12,
+        "loans": 80030515.82,
+        "revenue": 784480.21,
+        "net_interest_income": 708241.49,
+        "credit_loss": 70566.14,
+        "operating_cost": 586314.65,
+        "profit": 127599.42,
+        "active_customers": 16703.0
+      },
+      {
+        "month_ahead": 3,
+        "deposits": 24325969.84,
+        "loans": 80510698.91,
+        "revenue": 788597.3,
+        "net_interest_income": 712329.57,
+        "credit_loss": 70989.54,
+        "operating_cost": 583969.39,
+        "profit": 133638.38,
+        "active_customers": 16653.0
+      },
+      {
+        "month_ahead": 4,
+        "deposits": 24447599.69,
+        "loans": 80993763.1,
+        "revenue": 792738.23,
+        "net_interest_income": 716441.38,
+        "credit_loss": 71415.47,
+        "operating_cost": 581633.51,
+        "profit": 139689.25,
+        "active_customers": 16603.0
+      },
+      {
+        "month_ahead": 5,
+        "deposits": 24569837.69,
+        "loans": 81479725.68,
+        "revenue": 796903.14,
+        "net_interest_income": 720577.04,
+        "credit_loss": 71843.97,
+        "operating_cost": 579306.98,
+        "profit": 145752.19,
+        "active_customers": 16553.0
+      },
+      {
+        "month_ahead": 6,
+        "deposits": 24692686.88,
+        "loans": 81968604.04,
+        "revenue": 801092.16,
+        "net_interest_income": 724736.71,
+        "credit_loss": 72275.03,
+        "operating_cost": 576989.75,
+        "profit": 151827.38,
+        "active_customers": 16504.0
+      },
+      {
+        "month_ahead": 7,
+        "deposits": 24816150.31,
+        "loans": 82460415.66,
+        "revenue": 805305.43,
+        "net_interest_income": 728920.51,
+        "credit_loss": 72708.68,
+        "operating_cost": 574681.79,
+        "profit": 157914.96,
+        "active_customers": 16454.0
+      },
+      {
+        "month_ahead": 8,
+        "deposits": 24940231.06,
+        "loans": 82955178.15,
+        "revenue": 809543.11,
+        "net_interest_income": 733128.59,
+        "credit_loss": 73144.93,
+        "operating_cost": 572383.06,
+        "profit": 164015.11,
+        "active_customers": 16405.0
+      },
+      {
+        "month_ahead": 9,
+        "deposits": 25064932.22,
+        "loans": 83452909.22,
+        "revenue": 813805.32,
+        "net_interest_income": 737361.09,
+        "credit_loss": 73583.8,
+        "operating_cost": 570093.53,
+        "profit": 170127.99,
+        "active_customers": 16356.0
+      },
+      {
+        "month_ahead": 10,
+        "deposits": 25190256.88,
+        "loans": 83953626.68,
+        "revenue": 818092.22,
+        "net_interest_income": 741618.16,
+        "credit_loss": 74025.3,
+        "operating_cost": 567813.16,
+        "profit": 176253.76,
+        "active_customers": 16307.0
+      },
+      {
+        "month_ahead": 11,
+        "deposits": 25316208.16,
+        "loans": 84457348.44,
+        "revenue": 822403.94,
+        "net_interest_income": 745899.94,
+        "credit_loss": 74469.46,
+        "operating_cost": 565541.91,
+        "profit": 182392.58,
+        "active_customers": 16258.0
+      },
+      {
+        "month_ahead": 12,
+        "deposits": 25442789.2,
+        "loans": 84964092.53,
+        "revenue": 826740.64,
+        "net_interest_income": 750206.56,
+        "credit_loss": 74916.27,
+        "operating_cost": 563279.74,
+        "profit": 188544.63,
+        "active_customers": 16209.0
+      }
+    ]
+  },
+  "Downside Case": {
+    "assumptions": {
+      "deposit_growth_monthly": 0.001,
+      "loan_growth_monthly": 0.002,
+      "interest_rate_delta": 0.01,
+      "credit_loss_multiplier": 1.5,
+      "fee_income_growth_monthly": -0.002,
+      "customer_acquisition_growth_monthly": 0.002,
+      "churn_rate_monthly": 0.016,
+      "operating_cost_growth_monthly": 0.006,
+      "digital_adoption_growth_monthly": 0.002,
+      "marketing_spend_multiplier": 0.9
+    },
+    "month_12_snapshot": {
+      "month_ahead": 12,
+      "deposits": 24253862.35,
+      "loans": 80997630.26,
+      "revenue": 858684.52,
+      "net_interest_income": 782674.25,
+      "credit_loss": 119031.47,
+      "operating_cost": 635020.63,
+      "profit": 104632.42,
+      "active_customers": 14188.0
+    },
+    "cumulative_12m_profit": 1425276.23,
+    "roa_annualized_month12": 0.0119,
+    "path": [
+      {
+        "month_ahead": 1,
+        "deposits": 23988663.71,
+        "loans": 79236881.74,
+        "revenue": 843573.85,
+        "net_interest_income": 767407.18,
+        "credit_loss": 116443.93,
+        "operating_cost": 594579.66,
+        "profit": 132550.25,
+        "active_customers": 16569.0
+      },
+      {
+        "month_ahead": 2,
+        "deposits": 24012652.37,
+        "loans": 79395355.5,
+        "revenue": 844934.38,
+        "net_interest_income": 768782.07,
+        "credit_loss": 116676.82,
+        "operating_cost": 598147.14,
+        "profit": 130110.42,
+        "active_customers": 16337.0
+      },
+      {
+        "month_ahead": 3,
+        "deposits": 24036665.02,
+        "loans": 79554146.21,
+        "revenue": 846297.52,
+        "net_interest_income": 770159.55,
+        "credit_loss": 116910.17,
+        "operating_cost": 601736.02,
+        "profit": 127651.33,
+        "active_customers": 16108.0
+      },
+      {
+        "month_ahead": 4,
+        "deposits": 24060701.69,
+        "loans": 79713254.51,
+        "revenue": 847663.3,
+        "net_interest_income": 771539.63,
+        "credit_loss": 117143.99,
+        "operating_cost": 605346.44,
+        "profit": 125172.86,
+        "active_customers": 15883.0
+      },
+      {
+        "month_ahead": 5,
+        "deposits": 24084762.39,
+        "loans": 79872681.01,
+        "revenue": 849031.7,
+        "net_interest_income": 772922.3,
+        "credit_loss": 117378.28,
+        "operating_cost": 608978.52,
+        "profit": 122674.9,
+        "active_customers": 15660.0
+      },
+      {
+        "month_ahead": 6,
+        "deposits": 24108847.15,
+        "loans": 80032426.38,
+        "revenue": 850402.73,
+        "net_interest_income": 774307.58,
+        "credit_loss": 117613.04,
+        "operating_cost": 612632.39,
+        "profit": 120157.3,
+        "active_customers": 15441.0
+      },
+      {
+        "month_ahead": 7,
+        "deposits": 24132956.0,
+        "loans": 80192491.23,
+        "revenue": 851776.4,
+        "net_interest_income": 775695.47,
+        "credit_loss": 117848.27,
+        "operating_cost": 616308.18,
+        "profit": 117619.96,
+        "active_customers": 15225.0
+      },
+      {
+        "month_ahead": 8,
+        "deposits": 24157088.96,
+        "loans": 80352876.21,
+        "revenue": 853152.72,
+        "net_interest_income": 777085.98,
+        "credit_loss": 118083.96,
+        "operating_cost": 620006.03,
+        "profit": 115062.73,
+        "active_customers": 15012.0
+      },
+      {
+        "month_ahead": 9,
+        "deposits": 24181246.04,
+        "loans": 80513581.96,
+        "revenue": 854531.69,
+        "net_interest_income": 778479.1,
+        "credit_loss": 118320.13,
+        "operating_cost": 623726.07,
+        "profit": 112485.49,
+        "active_customers": 14801.0
+      },
+      {
+        "month_ahead": 10,
+        "deposits": 24205427.29,
+        "loans": 80674609.13,
+        "revenue": 855913.3,
+        "net_interest_income": 779874.85,
+        "credit_loss": 118556.77,
+        "operating_cost": 627468.42,
+        "profit": 109888.11,
+        "active_customers": 14594.0
+      },
+      {
+        "month_ahead": 11,
+        "deposits": 24229632.72,
+        "loans": 80835958.35,
+        "revenue": 857297.58,
+        "net_interest_income": 781273.23,
+        "credit_loss": 118793.88,
+        "operating_cost": 631233.23,
+        "profit": 107270.46,
+        "active_customers": 14390.0
+      },
+      {
+        "month_ahead": 12,
+        "deposits": 24253862.35,
+        "loans": 80997630.26,
+        "revenue": 858684.52,
+        "net_interest_income": 782674.25,
+        "credit_loss": 119031.47,
+        "operating_cost": 635020.63,
+        "profit": 104632.42,
+        "active_customers": 14188.0
+      }
+    ]
+  },
+  "Stress Case": {
+    "assumptions": {
+      "deposit_growth_monthly": -0.006,
+      "loan_growth_monthly": -0.004,
+      "interest_rate_delta": 0.025,
+      "credit_loss_multiplier": 2.4,
+      "fee_income_growth_monthly": -0.01,
+      "customer_acquisition_growth_monthly": -0.005,
+      "churn_rate_monthly": 0.028,
+      "operating_cost_growth_monthly": 0.003,
+      "digital_adoption_growth_monthly": 0.0,
+      "marketing_spend_multiplier": 0.6
+    },
+    "month_12_snapshot": {
+      "month_ahead": 12,
+      "deposits": 22295057.23,
+      "loans": 75365349.19,
+      "revenue": 896005.08,
+      "net_interest_income": 820641.41,
+      "credit_loss": 177207.13,
+      "operating_cost": 612665.27,
+      "profit": 106132.67,
+      "active_customers": 11234.0
+    },
+    "cumulative_12m_profit": 1591082.62,
+    "roa_annualized_month12": 0.013,
+    "path": [
+      {
+        "month_ahead": 1,
+        "deposits": 23820910.81,
+        "loans": 78762409.39,
+        "revenue": 937213.33,
+        "net_interest_income": 861104.22,
+        "credit_loss": 185194.66,
+        "operating_cost": 592806.56,
+        "profit": 159212.11,
+        "active_customers": 16249.0
+      },
+      {
+        "month_ahead": 2,
+        "deposits": 23677985.35,
+        "loans": 78447359.76,
+        "revenue": 933380.08,
+        "net_interest_income": 857342.19,
+        "credit_loss": 184453.88,
+        "operating_cost": 594584.98,
+        "profit": 154341.21,
+        "active_customers": 15713.0
+      },
+      {
+        "month_ahead": 3,
+        "deposits": 23535917.44,
+        "loans": 78133570.32,
+        "revenue": 929564.49,
+        "net_interest_income": 853597.12,
+        "credit_loss": 183716.07,
+        "operating_cost": 596368.74,
+        "profit": 149479.69,
+        "active_customers": 15195.0
+      },
+      {
+        "month_ahead": 4,
+        "deposits": 23394701.93,
+        "loans": 77821036.03,
+        "revenue": 925766.48,
+        "net_interest_income": 849868.92,
+        "credit_loss": 182981.2,
+        "operating_cost": 598157.84,
+        "profit": 144627.44,
+        "active_customers": 14693.0
+      },
+      {
+        "month_ahead": 5,
+        "deposits": 23254333.72,
+        "loans": 77509751.89,
+        "revenue": 921985.97,
+        "net_interest_income": 846157.51,
+        "credit_loss": 182249.28,
+        "operating_cost": 599952.31,
+        "profit": 139784.37,
+        "active_customers": 14208.0
+      },
+      {
+        "month_ahead": 6,
+        "deposits": 23114807.72,
+        "loans": 77199712.88,
+        "revenue": 918222.86,
+        "net_interest_income": 842462.82,
+        "credit_loss": 181520.28,
+        "operating_cost": 601752.17,
+        "profit": 134950.41,
+        "active_customers": 13740.0
+      },
+      {
+        "month_ahead": 7,
+        "deposits": 22976118.87,
+        "loans": 76890914.03,
+        "revenue": 914477.08,
+        "net_interest_income": 838784.78,
+        "credit_loss": 180794.2,
+        "operating_cost": 603557.43,
+        "profit": 130125.45,
+        "active_customers": 13286.0
+      },
+      {
+        "month_ahead": 8,
+        "deposits": 22838262.16,
+        "loans": 76583350.38,
+        "revenue": 910748.54,
+        "net_interest_income": 835123.29,
+        "credit_loss": 180071.02,
+        "operating_cost": 605368.1,
+        "profit": 125309.41,
+        "active_customers": 12848.0
+      },
+      {
+        "month_ahead": 9,
+        "deposits": 22701232.59,
+        "loans": 76277016.97,
+        "revenue": 907037.15,
+        "net_interest_income": 831478.29,
+        "credit_loss": 179350.74,
+        "operating_cost": 607184.2,
+        "profit": 120502.2,
+        "active_customers": 12424.0
+      },
+      {
+        "month_ahead": 10,
+        "deposits": 22565025.19,
+        "loans": 75971908.91,
+        "revenue": 903342.83,
+        "net_interest_income": 827849.69,
+        "credit_loss": 178633.34,
+        "operating_cost": 609005.76,
+        "profit": 115703.74,
+        "active_customers": 12014.0
+      },
+      {
+        "month_ahead": 11,
+        "deposits": 22429635.04,
+        "loans": 75668021.27,
+        "revenue": 899665.5,
+        "net_interest_income": 824237.42,
+        "credit_loss": 177918.8,
+        "operating_cost": 610832.77,
+        "profit": 110913.92,
+        "active_customers": 11617.0
+      },
+      {
+        "month_ahead": 12,
+        "deposits": 22295057.23,
+        "loans": 75365349.19,
+        "revenue": 896005.08,
+        "net_interest_income": 820641.41,
+        "credit_loss": 177207.13,
+        "operating_cost": 612665.27,
+        "profit": 106132.67,
+        "active_customers": 11234.0
+      }
+    ]
+  }
+}

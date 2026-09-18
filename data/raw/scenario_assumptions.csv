@@ -1,0 +1,6 @@
+scenario,deposit_growth_monthly,loan_growth_monthly,interest_rate_delta,credit_loss_multiplier,fee_income_growth_monthly,customer_acquisition_growth_monthly,churn_rate_monthly,operating_cost_growth_monthly,digital_adoption_growth_monthly,marketing_spend_multiplier
+Base Case,0.006,0.008,0.0,1.0,0.004,0.01,0.01,0.004,0.004,1.0
+Growth Case,0.012,0.016,-0.005,1.15,0.009,0.02,0.009,0.008,0.008,1.4
+Efficiency Case,0.005,0.006,0.0,0.9,0.004,0.006,0.009,-0.004,0.01,0.75
+Downside Case,0.001,0.002,0.01,1.5,-0.002,0.002,0.016,0.006,0.002,0.9
+Stress Case,-0.006,-0.004,0.025,2.4,-0.01,-0.005,0.028,0.003,0.0,0.6

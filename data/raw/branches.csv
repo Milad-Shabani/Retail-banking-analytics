@@ -1,0 +1,26 @@
+branch_id,branch_name,region,city,branch_type,open_date,employee_count
+BR001,Branch 001,Region-02,Region-02-City-2,Standard,2019-02-13,25
+BR002,Branch 002,Region-10,Region-10-City-2,Standard,2012-03-10,8
+BR003,Branch 003,Region-08,Region-08-City-3,Flagship,2018-10-25,32
+BR004,Branch 004,Region-06,Region-06-City-2,Standard,2010-01-30,25
+BR005,Branch 005,Region-06,Region-06-City-2,Standard,2018-09-23,27
+BR006,Branch 006,Region-11,Region-11-City-2,Digital-Light,2018-08-14,25
+BR007,Branch 007,Region-02,Region-02-City-1,Rural,2018-07-19,24
+BR008,Branch 008,Region-09,Region-09-City-1,Standard,2017-04-13,9
+BR009,Branch 009,Region-03,Region-03-City-2,Standard,2015-03-02,25
+BR010,Branch 010,Region-02,Region-02-City-3,Standard,2017-09-21,33
+BR011,Branch 011,Region-07,Region-07-City-1,Standard,2013-01-13,16
+BR012,Branch 012,Region-12,Region-12-City-3,Standard,2018-07-20,26
+BR013,Branch 013,Region-09,Region-09-City-3,Standard,2016-02-01,7
+BR014,Branch 014,Region-10,Region-10-City-1,Standard,2015-01-10,17
+BR015,Branch 015,Region-09,Region-09-City-2,Standard,2015-07-16,20
+BR016,Branch 016,Region-10,Region-10-City-1,Standard,2016-03-24,39
+BR017,Branch 017,Region-07,Region-07-City-3,Digital-Light,2010-05-30,13
+BR018,Branch 018,Region-02,Region-02-City-3,Digital-Light,2011-07-14,15
+BR019,Branch 019,Region-11,Region-11-City-2,Standard,2012-09-08,19
+BR020,Branch 020,Region-06,Region-06-City-1,Digital-Light,2011-04-04,39
+BR021,Branch 021,Region-07,Region-07-City-3,Digital-Light,2014-10-25,35
+BR022,Branch 022,Region-05,Region-05-City-2,Standard,2017-04-27,7
+BR023,Branch 023,Region-03,Region-03-City-3,Standard,2017-03-02,13
+BR024,Branch 024,Region-12,Region-12-City-3,Standard,2015-02-28,33
+BR025,Branch 025,Region-10,Region-10-City-3,Standard,2019-05-14,7

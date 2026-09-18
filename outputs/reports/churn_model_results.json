@@ -1,0 +1,96 @@
+{
+  "cutoff_month": "2024-06",
+  "n_train": 15000,
+  "n_test": 5000,
+  "churn_rate_test": 0.1598,
+  "logistic_regression": {
+    "roc_auc": 0.8804,
+    "pr_auc": 0.8179,
+    "precision": 0.9411,
+    "recall": 0.6996,
+    "f1": 0.8026,
+    "brier_score": 0.0818,
+    "confusion_matrix": [
+      [
+        4166,
+        35
+      ],
+      [
+        240,
+        559
+      ]
+    ]
+  },
+  "gradient_boosting": {
+    "roc_auc": 0.883,
+    "pr_auc": 0.8232,
+    "precision": 0.9963,
+    "recall": 0.6796,
+    "f1": 0.808,
+    "brier_score": 0.047,
+    "confusion_matrix": [
+      [
+        4199,
+        2
+      ],
+      [
+        256,
+        543
+      ]
+    ]
+  },
+  "feature_importance_gbc": [
+    {
+      "feature": "inactive_months",
+      "importance": 0.9445
+    },
+    {
+      "feature": "balance_trend",
+      "importance": 0.0236
+    },
+    {
+      "feature": "avg_balance",
+      "importance": 0.0085
+    },
+    {
+      "feature": "annual_income",
+      "importance": 0.0079
+    },
+    {
+      "feature": "tenure_years",
+      "importance": 0.0041
+    },
+    {
+      "feature": "avg_txn",
+      "importance": 0.004
+    },
+    {
+      "feature": "recent_txn",
+      "importance": 0.0029
+    },
+    {
+      "feature": "age",
+      "importance": 0.0023
+    },
+    {
+      "feature": "unemployed",
+      "importance": 0.001
+    },
+    {
+      "feature": "products_owned_count",
+      "importance": 0.0009
+    },
+    {
+      "feature": "digital_high",
+      "importance": 0.0002
+    },
+    {
+      "feature": "salary_customer_flag",
+      "importance": 0.0002
+    },
+    {
+      "feature": "premium_customer_flag",
+      "importance": 0.0
+    }
+  ]
+}
