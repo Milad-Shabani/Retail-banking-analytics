@@ -217,7 +217,7 @@ retail-banking-analytics/
 ├── outputs/{dashboard,excel,reports}     build artifacts (dashboard.html, .xlsx, model JSON)
 ├── docs/                                 business case, data dictionary, methodology, assumptions
 ├── tests/                                58 pytest tests (data quality, financial reconciliation, models, forecasting, optimization, segmentation)
-├── github_release/publish.sh|.bat        one-command GitHub publish + Pages setup
+├── github_release/publish.sh             one-command GitHub publish + Pages setup
 └── notebooks/                            (reserved for exploratory analysis)
 ```
 
@@ -248,11 +248,6 @@ optimization (budget/ceiling/floor constraints respected). Run with
 `pytest tests/ -v`.
 
 ## Publishing to GitHub
-
-**Windows:**
-```
-publish.bat
-```
 
 **macOS/Linux:**
 ```bash
